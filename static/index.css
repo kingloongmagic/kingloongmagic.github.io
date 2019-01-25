@@ -1,0 +1,480 @@
+body {
+	margin: 0px; padding: 0px;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+legend {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+select {
+	margin: 0px; padding: 0px;
+}
+table {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+textarea {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+body {
+	font-family: arial,pingfang sc,stheiti,microsoft yahei,sans-serif; font-size: 13px;
+}
+button {
+	font-family: arial,pingfang sc,stheiti,microsoft yahei,sans-serif; font-size: 13px;
+}
+input {
+	font-family: arial,pingfang sc,stheiti,microsoft yahei,sans-serif; font-size: 13px;
+}
+select {
+	font-family: arial,pingfang sc,stheiti,microsoft yahei,sans-serif; font-size: 13px;
+}
+textarea {
+	font-family: arial,pingfang sc,stheiti,microsoft yahei,sans-serif; font-size: 13px;
+}
+html {
+	-ms-overflow-y: scroll;
+}
+fieldset {
+	border: 0px currentColor; border-image: none; vertical-align: top;
+}
+img {
+	border: 0px currentColor; border-image: none; vertical-align: top;
+}
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+address {
+	font-style: normal;
+}
+em {
+	font-style: normal;
+}
+a {
+	outline: 0px; text-decoration: none;
+}
+.clear {
+	height: 0px; line-height: 0; overflow: hidden; font-size: 0px; visibility: hidden;
+}
+body {
+	height: 100%;
+}
+html {
+	height: 100%;
+}
+body {
+	background: rgb(255, 255, 255); -ms-word-break: break-all; -ms-zoom: 1; -ms-word-wrap: break-word; min-width: 1000px;
+}
+.wrapper {
+	height: 100%; position: relative;
+}
+body {
+	height: 100%; position: relative;
+}
+.wrapper {
+	z-index: 10; min-height: 517px;
+}
+.wrapper.join-on {
+	min-height: 835px;
+}
+.header {
+	padding: 11px 0px; left: 0px; top: 0px; width: 100%; height: 24px; line-height: 24px; position: absolute; z-index: 2001; min-width: 1000px;
+}
+.top-nav {
+	float: left;
+}
+.top-nav li {
+	margin-left: 20px; float: left;
+}
+.top-nav li a {
+	transition:color 0.25s; color: rgba(0, 0, 0, 0.75); display: block; position: relative; -webkit-transition: color .25s; -moz-transition: color .25s;
+}
+.top-nav li a .nav-new {
+	background: url("../img/ico_new.png") no-repeat 0px 0px; width: 13px;
+}
+.top-nav li a .nav-beta {
+	border: 0px currentColor !important; border-image: none !important; left: 25px; top: -7px; height: 15px; position: absolute;
+}
+.top-nav li a .nav-new {
+	border: 0px currentColor !important; border-image: none !important; left: 25px; top: -7px; height: 15px; position: absolute;
+}
+.top-nav li a:hover {
+	color: rgb(255, 90, 52); text-decoration: none;
+}
+.hotsearchs a:hover {
+	color: rgb(255, 90, 52); text-decoration: none;
+}
+.top-nav li.cur {
+	color: rgb(225, 69, 27); font-weight: bold; border-bottom-color: rgb(225, 69, 27); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.top-nav li.show-more {
+	position: relative;
+}
+.top-nav li.show-more a {
+	transition:color 0.25s; padding-right: 10px; position: relative; -webkit-transition: color .25s; -moz-transition: color .25s;
+}
+.top-nav li.show-more a:hover {
+	color: rgb(255, 90, 52);
+}
+.top-nav li.show-more a i {
+	transition:0.25s; top: 10px; width: 0px; height: 0px; right: 0px; line-height: 0; font-size: 0px; vertical-align: top; border-top-color: rgb(102, 102, 102); border-right-color: transparent; border-left-color: transparent; border-top-width: 4px; border-right-width: 4px; border-left-width: 4px; border-top-style: solid; border-right-style: dashed; border-left-style: dashed; display: inline-block; position: absolute; _top: 4px;
+}
+.top-nav li.show-more a:hover i {
+	border-top-color: currentColor; border-bottom-color: rgb(255, 90, 52); border-top-width: 0px; border-bottom-width: 4px; border-top-style: none; border-bottom-style: solid;
+}
+.top-nav li.show-more .m-arr i {
+	transform: rotate(180deg);
+}
+.top-nav li.show-more .pos-more {
+	left: -18px; top: 27px; width: 60px; position: absolute;
+}
+.top-nav li.show-more .pos-more a {
+	background: 0px 0px; padding: 0px; transition:none 0.25s; width: 100%; line-height: 29px; float: left; -webkit-transition: none .25s; -moz-transition: none .25s;
+}
+.white-skin .top-nav li.show-more .pos-more a {
+	color: rgb(51, 51, 51);
+}
+.top-nav li.show-more .pos-more a:hover {
+	background: rgb(253, 104, 83); color: rgb(255, 255, 255);
+}
+.top-nav li.show-more .pos-more .all {
+	font-weight: 400; border-top-color: rgb(242, 242, 242); border-top-width: 1px; border-top-style: solid;
+}
+.top-nav li.show-more .pos-more .all a {
+	background: url("../img/ico_spy.png") no-repeat 32px -317px;
+}
+.top-nav li.show-more .pos-more .all a:hover {
+	background: url("../img/ico_spy.png") no-repeat 32px -367px rgb(253, 104, 83);
+}
+.top-nav li.show-more .pos-more .ico-san {
+	background: url("../img/ico_spy.png") no-repeat 0px -295px; left: 26px; top: -5px; width: 10px; height: 5px; position: absolute;
+}
+.content {
+	height: 37%; position: relative; min-height: 207px;
+}
+.content .logo {
+	height: 60%; position: relative; min-height: 181px;
+}
+.content .logo2 {
+	left: -10000px; position: absolute; z-index: -1; opacity: 0;
+}
+.content .logo2 span {
+	display: inline-block;
+}
+.content .logo span {
+	background: url("../img/logo.png") no-repeat 0px 0px; transition:opacity 0.2s; left: 55%; top: 150px; width: 213px; height: 50px; bottom: 0px; margin-left: -220px; position: absolute; opacity: 1;
+}
+.join-on .content {
+	height: 38.2%; position: relative; z-index: 3; min-height: 293px;
+}
+.join-on .content .logo {
+	height: 70%; position: relative; min-height: 181px;
+}
+.content .door {
+	margin: 0px 0px 0px 268px; left: 50%; bottom: 108px; position: absolute;
+}
+.content .door a {
+	width: 24px; height: 24px; display: inline-block;
+}
+.search-box {
+	margin: 0px auto; width: 624px; height: 44px; position: relative; z-index: 999999;
+}
+.search-box .sec-input {
+	border-width: 1px 0px 1px 1px; border-style: solid none solid solid; border-color: rgb(221, 221, 221) currentColor rgb(221, 221, 221) rgb(221, 221, 221); padding: 10px; outline: 0px; border-radius: 2px 0px 0px 2px; border-image: none; width: 529px; height: 22px; color: rgb(51, 51, 51); font-size: 16px; vertical-align: top; position: relative; z-index: 3; box-shadow: none; -webkit-appearance: none;
+}
+.white-skin .fixed .search-box .sec-input {
+	border-width: 1px 0px 1px 1px; border-style: solid none solid solid; border-color: rgb(221, 221, 221) currentColor rgb(221, 221, 221) rgb(221, 221, 221); padding: 10px; outline: 0px; border-radius: 2px 0px 0px 2px; border-image: none; width: 529px; height: 22px; color: rgb(51, 51, 51); font-size: 16px; vertical-align: top; position: relative; z-index: 3; box-shadow: none; -webkit-appearance: none;
+}
+.search-box .sec-input-box {
+	display: block;
+}
+.search-box .sec-input-box .sec-input.hover {
+	border-width: 1px 0px 1px 1px; border-style: solid none solid solid; border-color: rgb(153, 153, 153) currentColor rgb(153, 153, 153) rgb(153, 153, 153); border-image: none;
+}
+.white-skin .fixed .search-box .sec-input.hover {
+	border-width: 1px 0px 1px 1px; border-style: solid none solid solid; border-color: rgb(153, 153, 153) currentColor rgb(153, 153, 153) rgb(153, 153, 153); border-image: none;
+}
+.white-skin .search-box .sec-input.hover {
+	border: 1px solid rgb(255, 255, 255); border-image: none; box-shadow: 0px 1px 8px rgba(0,0,0,0.1); -moz-box-shadow: 0 1px 8px rgba(0, 0, 0, .1); -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, .1);
+}
+.search-box .sec-input-box .sec-input.active {
+	border-width: 1px 0px 1px 1px; border-style: solid none solid solid; border-color: rgb(253, 104, 83) currentColor rgb(253, 104, 83) rgb(253, 104, 83); border-image: none;
+}
+.white-skin .fixed .search-box .sec-input.active {
+	border-width: 1px 0px 1px 1px; border-style: solid none solid solid; border-color: rgb(253, 104, 83) currentColor rgb(253, 104, 83) rgb(253, 104, 83); border-image: none;
+}
+.search-box .enter-input {
+	top: 0px; right: 0px; position: absolute; z-index: 3;
+}
+.search-box .enter-input input {
+	background: url("../img/ico_spy.png") no-repeat 29px -9px rgb(253, 104, 83); outline: 0px; border-radius: 0px 2px 2px 0px; border: 0px currentColor; transition:0.25s; border-image: none; width: 74px; height: 44px; text-align: center; color: rgb(255, 255, 255); line-height: 44px; font-size: 33px; vertical-align: top; cursor: pointer; box-shadow: none; -webkit-transition: all .25s; -moz-transition: all .25s;
+}
+.search-box .enter-input input:hover {
+	box-shadow: 0px 2px 4px rgba(229,94,66,0.4); background-color: rgb(255, 89, 67); -moz-box-shadow: 0 2px 4px rgba(229, 94, 66, .4); -webkit-box-shadow: 0 2px 4px rgba(229, 94, 66, .4);
+}
+.search-box .enter-input input:active {
+	box-shadow: none !important; background-color: rgb(242, 84, 64);
+}
+.card-box {
+	margin: 0px auto; width: 100%; min-width: 1000px;
+}
+.card-box2 {
+	background: hsla(0, 0%, 100%, 0.97); margin: 0px auto; border: 1px solid rgb(235, 235, 235); border-image: none; width: 892px; height: 398px; overflow: hidden; position: relative; -ms-zoom: 1; box-shadow: 0px 2px 6px hsla(0, 0%, 94%, 0.5); -moz-box-shadow: 0 2px 6px hsla(0, 0%, 94%, .5); -webkit-box-shadow: 0 2px 6px hsla(0, 0%, 94%, .5);
+}
+.c-top {
+	height: 40px; line-height: 40px; padding-left: 3px; font-size: 14px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; position: relative; z-index: 1;
+}
+.c-top span {
+	margin: 0px 17px; padding: 0px 4px; transition:color 0.25s; color: rgb(102, 102, 102); display: inline-block; cursor: pointer; -webkit-transition: color .25s; -moz-transition: color .25s;
+}
+.c-top span:hover {
+	color: rgb(255, 90, 52); text-decoration: none;
+}
+.c-top .cur {
+	height: 39px; color: rgb(51, 51, 51); line-height: 40px; font-weight: 700; margin-bottom: -1px; vertical-align: top; border-bottom-color: rgb(253, 104, 83); border-bottom-width: 2px; border-bottom-style: solid; position: relative;
+}
+.c-top .shezhi {
+	background: url("../img/ico_spy.png") no-repeat 0px -89px; margin: 0px; padding: 0px; top: 8px; width: 24px; height: 24px; right: 20px; position: absolute;
+}
+.c-top .shezhi:hover {
+	background: url("../img/ico_spy.png") no-repeat 0px -233px;
+}
+.pos-header {
+	transition:opacity 0.2s; width: 100%; height: 114px; display: none; position: fixed; z-index: 6; opacity: 0; -moz-opacity: 0;
+}
+.part-one {
+	height: 72px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; position: relative; z-index: 1; box-shadow: 0px 2px 5px rgba(0,0,0,0.15); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, .15); -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .15);
+}
+.part-one {
+	background: hsla(0, 0%, 100%, 0.97);
+}
+.part-two {
+	background: hsla(0, 0%, 100%, 0.97);
+}
+.part-two {
+	height: 40px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.part-two .c-top {
+	margin: 0px auto; padding: 0px 54px 0px 57px; width: 889px;
+}
+.fixed .pos-header {
+	transition:opacity 0.2s; display: block; z-index: 3; opacity: 1; -webkit-transition: opacity .2s ease; -moz-transition: opacity .2s ease; -moz-opacity: 1;
+}
+.content.fixed .logo img {
+	transition:opacity 0.2s; opacity: 0;
+}
+.fixed .search-box {
+	left: 50%; top: 14px; margin-left: -265px; position: fixed; z-index: 4;
+}
+.dh-list li a:hover {
+	background: rgb(255, 255, 255); border: 1px solid rgb(242, 242, 242); border-image: none; box-shadow: 0px 1px 8px rgba(0,0,0,0.1); -moz-box-shadow: 0 1px 8px rgba(0, 0, 0, .1); -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, .1);
+}
+.dh-list li img {
+	margin: 0px 5px 0px 0px; top: -1px; position: relative;
+}
+.hide {
+	width: 53px; height: 22px; right: 42px; bottom: 0px; display: block; position: absolute;
+}
+.roll-list .hide {
+	display: none;
+}
+.roll-list .show {
+	display: block;
+}
+.hide:hover {
+	background-position: 0px -24px;
+}
+.lt-rr {
+	top: 0px; width: 42px; height: 92px; display: block; position: absolute; z-index: 2;
+}
+.rt-rr {
+	top: 0px; width: 42px; height: 92px; display: block; position: absolute; z-index: 2;
+}
+.lt-rr {
+	left: 0px;
+}
+.lt-rr:hover {
+	background-position: -112px;
+}
+.rt-rr {
+	background-position: -30px; right: 0px;
+}
+.rt-rr:hover {
+	background-position: -142px;
+}
+.skin-top {
+	margin: 0px auto; width: 916px;
+}
+.hide-skin {
+	background-position: 0px 14px; color: rgb(102, 102, 102); line-height: 32px; padding-top: 2px; padding-left: 15px; font-size: 14px; display: inline-block;
+}
+.hide-skin:hover {
+	background-position: 0px -26px; color: rgb(51, 51, 51);
+}
+.white-skin .user-enter .pos-more a {
+	color: rgb(51, 51, 51);
+}
+.white-skin .top-nav li.show-more .pos-more a:hover {
+	background: rgb(253, 104, 83); color: rgb(255, 255, 255);
+}
+.white-skin .user-enter .pos-more a:hover {
+	background: rgb(253, 104, 83); color: rgb(255, 255, 255);
+}
+.white-skin .top-nav li.show-more .pos-more .all a:hover {
+	background: url("../img/ico_spy.png") no-repeat 32px -367px rgb(253, 104, 83);
+}
+.big-scn .search-box {
+	width: 656px;
+}
+.big-scn .search-box .sec-input {
+	width: 561px;
+}
+.big-scn .white-skin .fixed .search-box .sec-input {
+	width: 561px;
+}
+.content .logo2 span {
+	width: 150px; height: 58px; vertical-align: top;
+}
+.user-enter .s-dw .pos-more {
+	left: -22px; top: 30px;
+}
+.nobg .suglist {
+	width: 100% !important; _width: 100%;
+}
+@media only screen and (min-width:1380px)
+{
+.search-box {
+	width: 656px !important;
+}
+.search-box .sec-input {
+	width: 561px !important;
+}
+}
+.search-box .yuyin-cur .sec-input {
+	padding: 10px 40px 10px 10px; width: 499px;
+}
+.white-skin .fixed .search-box .yuyin-cur .sec-input {
+	padding: 10px 40px 10px 10px; width: 499px;
+}
+@media only screen and (min-width:1380px)
+{
+.search-box {
+	width: 656px !important;
+}
+.search-box .yuyin-cur .sec-input {
+	width: 531px !important;
+}
+}
+#card_container {
+	margin: 0px auto; top: 10px; width: 671px; height: 280px; position: relative;
+}
+#card_container h3 {
+	color: rgb(0, 190, 60); font-size: 14px;
+}
+#card_container .left-wrap {
+	width: 336px; height: 280px; float: left; position: relative;
+}
+#card_container .right-wrap {
+	top: 0px; width: 336px; height: 280px; right: -1px; position: absolute;
+}
+#card_container .right-wrap img {
+	width: 336px; height: 280px;
+}
+#card_container .left-wrap img {
+	width: 336px; height: 280px;
+}
+#foot {
+	background: rgb(255, 255, 255); width: 100%; height: 30px; text-align: center; bottom: 0px; line-height: 30px; clear: both; border-top-color: rgb(235, 235, 235); border-top-width: 1px; border-top-style: solid; position: fixed; _position: absolute;
+}
+#foot span {
+	color: rgb(153, 153, 153);
+}
+#foot .foot_c {
+	padding: 0px 0px 0px 2px; float: left;
+}
+#help {
+	background: rgb(255, 255, 255); padding: 0px 0px 0px 50px; -ms-zoom: 1;
+}
+#help a {
+	padding: 0px 5px; color: rgb(153, 153, 153); text-decoration: none;
+}
+#help a:hover {
+	color: rgb(255, 90, 52); text-decoration: none;
+}
+#foot .foot_c:hover {
+	color: rgb(255, 90, 52); text-decoration: none;
+}
+.hotsearchs {
+	text-align: center; margin-top: 28px;
+}
+.hotsearchs a {
+	margin: 2px; padding: 6px 10px; border-radius: 5px; color: rgb(135, 135, 135); font-size: 13px; display: inline-block;
+}
+.dataList {
+	background: rgb(255, 255, 255); list-style: none; line-height: 28px; overflow: hidden; font-size: 14px;
+}
+.dataList li:hover {
+	background: rgb(243, 243, 243);
+}
+.dataList li {
+	padding: 0px 9px; color: rgb(135, 135, 135); overflow: hidden; white-space: nowrap; position: relative; cursor: pointer; -ms-word-break: normal; -ms-zoom: 1; -ms-word-wrap: normal;
+}
+.dataList li a {
+	color: rgb(135, 135, 135);
+}

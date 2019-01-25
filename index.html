@@ -1,0 +1,106 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0017)http://127.0.0.1/ -->
+<!DOCTYPE html PUBLIC "" ""><HTML lang="cn"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+   
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">   
+<SCRIPT src="static/jquery-1.11.0.min.js"></SCRIPT>
+   
+<SCRIPT src="static/ipan6-base.js"></SCRIPT>
+      <TITLE>爱盘乐</TITLE>   
+<META http-equiv="X-UA-Compatible" content="IE=Edge">   
+<META name="keywords" content="网盘搜索,百度网盘搜索,百度云搜索">   
+<META name="description" content="爱盘乐网盘搜索引擎支持百度云搜索、百度网盘、新浪微盘、速度网盘、115网盘、126网盘、163网盘、一木禾网盘、vdisk威盘搜索等网盘搜索服务，千万网友最爱用的网盘搜索神器。"> 
+  <LINK href="static/index.css" rel="stylesheet" type="text/css">  
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD>  
+<BODY>
+<DIV class="wrapper" id="wrap">
+<DIV class="header">
+<DIV class="top-nav">
+<UL id="searchnav">
+  <LI class="cur" id="baidu"><A onclick="st(this,'','baidu')" href="http://127.0.0.1/#">百度网盘</A></LI>
+  <LI class='id="weibo"'><A onclick="st(this,'','weibo')" href="http://127.0.0.1/#">新浪微盘</A></LI>
+  <LI class='id="sudupan"'><A onclick="st(this,'','sudupan')" href="http://127.0.0.1/#">速度网盘</A></LI>
+  <LI class='id="163disk"'><A onclick="st(this,'','163disk')" href="http://127.0.0.1/#">163网盘</A></LI>
+  <LI class='id="yimuhe"'><A onclick="st(this,'','yimuhe')" href="http://127.0.0.1/#">一木禾网盘</A></LI>
+  <LI class='id="vdisk"'><A onclick="st(this,'','vdisk')" href="http://127.0.0.1/#">vdisk威盘</A></LI></UL></DIV></DIV>
+<DIV class="content" id="content">
+<DIV class="pos-header" id="top-float-bar">
+<DIV class="part-one"></DIV>
+<DIV class="part-two" id="card-tab-layer">
+<DIV class="c-top" id="top-card-tab"></DIV></DIV></DIV>
+<DIV class="logo" id="logo-l"><SPAN></SPAN>     </DIV>
+<DIV class="hotsearchs"><A 
+href="http://127.0.0.1/baidu/?word=猎场&amp;page=1">猎场</A>             <A href="http://127.0.0.1/baidu/?word=芳华&amp;page=1">芳华</A> 
+            <A 
+href="http://127.0.0.1/baidu/?word=致我们单纯的小美好&amp;page=1">致我们单纯的小美好</A>           
+  <A href="http://127.0.0.1/baidu/?word=海上牧云记&amp;page=1">海上牧云记</A>             
+<A href="http://127.0.0.1/baidu/?word=灵域&amp;page=1">灵域</A>             <A href="http://127.0.0.1/baidu/?word=永夜君王&amp;page=1">永夜君王</A> 
+        </DIV>
+<DIV class="search-box" id="search-box">
+<FORM name="sf" id="sf" action=""><SPAN 
+class="sec-input-box yuyin-cur"><INPUT name="word" class="sec-input" id="query" type="text" maxlength="100" autocomplete="off"> 
+      </SPAN><SPAN class="enter-input"><INPUT id="stb" type="submit">       
+</SPAN>          </FORM>
+<UL class="dataList"></UL></DIV>
+<DIV id="card_container" style="display: block;">
+<DIV class="left-wrap"><!--<img style="" src="/static/img/some.jpg">-->          
+</DIV>
+<DIV class="right-wrap"><!--<img style="" src="/static/img/some.jpg">-->         
+ </DIV></DIV></DIV>
+<DIV id="foot"><SPAN id="help"><A 
+href="http://www.miitbeian.gov.cn/">蜀ICP备17043877号</A>            <!--<a target="_blank" rel="nofollow" href="/download">爱盘乐客户端下载</a>--> 
+           <!--<a target="_blank" rel="nofollow" href="/contact">联系我们</a>-->     
+       <!--<a target="_blank" rel="nofollow" href="/copyright">免责声明</a>-->      
+</SPAN>   </DIV>
+<SCRIPT type="text/javascript">
+    var suggest_url = "/suggest/"
+
+	$('.searchList').on('click', '.searchItem', function(){
+		$('.searchList .searchItem').removeClass('current');
+		$(this).addClass('current');
+	});
+
+    function removeByValue(arr, val) {
+      for(var i=0; i<arr.length; i++) {
+        if(arr[i] == val) {
+          arr.splice(i, 1);
+          break;
+        }
+      }
+    }
+
+
+    // 搜索建议
+    $(function(){
+        $('.sec-input').bind(' input propertychange ',function(){
+            var searchText = $(this).val();
+            var tmpHtml = "";
+            var pan="/"+$("#searchnav .cur").attr("id")+"/";
+            $.ajax({
+                cache: false,
+                type: 'get',
+                dataType:'json',
+                url:suggest_url+"?word="+searchText,
+                async: true,
+                success: function(data) {
+                    for (var i=0;i<data.length;i++){
+                        tmpHtml += '<li><a href="'+pan+'?word='+data[i]+'">'+data[i]+'</a></li>'
+
+                    }
+                    $(".dataList").html("")
+                    $(".dataList").append(tmpHtml);
+                    if (data.length == 0){
+                        $('.dataList').hide()
+                    }else {
+                        $('.dataList').show()
+                    }
+                }
+            });
+        } );
+    })
+
+    hideElement($('.dataList'), $('.searchInput'));
+
+</SCRIPT>
+</DIV></BODY></HTML>
